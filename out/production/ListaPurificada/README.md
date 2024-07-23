@@ -1,18 +1,18 @@
 # Atividade #1 - Implementando Listas
 ## ListaPurificada
 
-Este projeto remove elementos duplicados de uma lista fornecida pelo usuário, mantendo a ordem original dos elementos. Ele também identifica e exibe os elementos duplicados encontrados na lista. O projeto é dividido em quatro classes para melhor organização e modularidade.
+Este projeto Java interativo remove elementos duplicados de uma lista fornecida pelo usuário, mantendo a ordem original dos elementos. Ele também identifica e exibe os elementos duplicados encontrados na lista. O projeto é dividido em quatro classes para melhor organização e modularidade.
 
 
 ## Como usar
 1. Execute o arquivo `Main`
-2. O programa solicitará que o usuário digite os elementos da lista separados por espaço.
+2. O programa solicitará que você digite os elementos da lista separados por espaço.
 3. Após digitar os elementos e pressionar Enter, o programa exibirá a lista original, a lista sem duplicatas e a lista de duplicatas encontradas.
 
 
 ## Funcionalidades
 
-- **Obtém uma lista de elementos (números e/ou letras) do usuário via linha de comando.**
+- **Obtém uma lista de elementos (números ou letras) do usuário via linha de comando.**
 - **Remove elementos duplicados da lista, mantendo a ordem original.**
 - **Identifica e exibe os elementos duplicados da lista.**
 - **Utiliza HashSet para garantir a eficiência na remoção de duplicatas.**
@@ -147,14 +147,6 @@ Main --> ListaPurificada : usa
 
 ## Resultados
 
-| Tipo de Entrada  | Entrada                                                | Resultado (sem duplicatas)                    | Duplicatas         | Observações                                                                                                                       |
-|------------------|--------------------------------------------------------|-----------------------------------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Letras           | [j, a, l, a, u, n, i, v, e, r, s, i, t, y]             | [a, e, i, j, l, n, r, s, t, u, v, y]          | [a, i]             | O resultado remove as letras repetidas 'a' e 'i', mantendo a ordem original.                                                      |
-| Números          | [1, 2, 3, 4, 5, 5, 4, 9, 7, 6, 4, 2, 5, 8, 3]          | [1, 2, 3, 4, 5, 6, 7, 8, 9]                   | [5, 4, 4, 2, 5, 3] | O resultado remove os números repetidos, ordenando-os em ordem crescente.                                                         |
-| Letras e Números | [j, a, l, a, 2, 0, 2, 4, u, n, i, v, e, r, s, i, t, y] | [a, e, i, j, l, n, 0, 2, r, s, 4, t, u, v, y] | [a, 2, i]          | O resultado remove as letras e números repetidos, mantendo a ordem original e tratando letras e números como elementos distintos. |
 
 
 
-![Resultado (letra) - ListaPurificada - IntelliJ.png](Resultado%20%28letra%29%20-%20ListaPurificada%20-%20IntelliJ.png)
-![Resultado (numero) - ListaPurificada - IntelliJ.png](Resultado%20%28numero%29%20-%20ListaPurificada%20-%20IntelliJ.png)
-![Resultado (letra e numero) - ListaPurificada - IntelliJ.png](Resultado%20%28letra%20e%20numero%29%20-%20ListaPurificada%20-%20IntelliJ.png)
